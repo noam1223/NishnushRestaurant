@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layoutDirection="rtl">
+
+
+    <TextView
+        android:id="@+id/classification_name_text_view_dish_classification_item"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="@color/custom_green"
+        android:text="סיווג מנות"
+        android:textColor="@color/white"
+        android:fontFamily="@font/assistant_bold"
+        android:textSize="16sp"
+        android:paddingRight="28dp"
+        android:gravity="center_vertical"/>
+
+
+    <com.example.nishnushimrestaurant.helpUIClasses.NonScrollListView
+        android:id="@+id/dish_details_list_view_dish_classification_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

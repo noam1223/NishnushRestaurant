@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp">
+
+
+
+
+    <TextView
+        android:id="@+id/dish_name_order_dish_detail_order_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שם המנה"
+        android:textColor="@color/custom_blue"
+        android:fontFamily="@font/assistant_bold"
+        android:textSize="16sp"
+        android:layout_marginRight="28dp"/>
+
+
+
+
+    <TextView
+        android:id="@+id/dish_detail_order_dish_detail_order_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="שם המנה"
+        android:textColor="@color/custom_blue"
+        android:fontFamily="@font/assistant_regular"
+        android:textSize="16sp"
+        android:layout_marginRight="28dp"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>
